@@ -168,9 +168,9 @@ pub(crate) mod arm {
                 $name:ident {
                     mask: $mask:expr,
 
-                    /// Should we assume that the feature is always available
-                    /// for aarch64-apple-* targets? The first AArch64 iOS
-                    /// device used the Apple A7 chip.
+                    // Should we assume that the feature is always available
+                    // for aarch64-apple-* targets? The first AArch64 iOS
+                    // device used the Apple A7 chip.
                     // TODO: When we can use `if` in const expressions:
                     // ```
                     // aarch64_apple: $aarch64_apple,
