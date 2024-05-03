@@ -129,7 +129,8 @@ unsafe fn mul_mont(
     target_arch = "aarch64",
     target_arch = "arm",
     target_arch = "x86",
-    target_arch = "x86_64"
+    target_arch = "x86_64",
+    target_arch = "wasm32"
 )))]
 // TODO: Stop calling this from C and un-export it.
 #[allow(deprecated)]
@@ -236,7 +237,8 @@ prefixed_extern! {
     target_arch = "aarch64",
     target_arch = "arm",
     target_arch = "x86_64",
-    target_arch = "x86"
+    target_arch = "x86",
+    target_arch = "wasm32"
 ))]
 prefixed_extern! {
     // `r` and/or 'a' and/or 'b' may alias.
